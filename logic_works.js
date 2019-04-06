@@ -46,7 +46,7 @@ function createFeatures(earthquakeData) {
 function createMap(earthquakes) {
 
   var streetmap = L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/tiles/256/{z}/{x}/{y}?" +
-    "access_token=pk.eyJ1Ijoia3VsaW5pIiwiYSI6ImNpeWN6bjJ0NjAwcGYzMnJzOWdoNXNqbnEifQ.jEzGgLAwQnZCv9rA6UTfxQ");
+    "access_token=pk.eyJ1IjoiZnViYXJyb3NvIiwiYSI6ImNqdGxsd3BnYTBkY2o0M3BleWM0NTB2c2wifQ.VQRyalqdJONe4NMcE1PUVA");
 
   var baseMaps = {
     "Street Map": streetmap
